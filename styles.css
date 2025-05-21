@@ -1,0 +1,22 @@
+body{
+    background:url("../img/bg-01.png");
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+button{
+  position:relative;
+  margin-top:4vh;
+  margin-left:7vw;
+  Padding:10px 20px;
+}
+@media (max-width: 600px) {
+    body {
+      background-size: cover;
+    }
+    button{
+      position:relative;
+      margin-top:4vh;
+      margin-left:6vw;
+      Padding:8px 15px;
+    }
+  }
