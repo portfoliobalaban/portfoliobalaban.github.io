@@ -1,25 +1,73 @@
 body{
-    background:url("img/bg-01.png");
+    background:url("img/bg1-01.jpg");
 	background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
 }
-button{
+#button1{
   position:relative;
   margin-top:4vh;
   margin-left:7vw;
   Padding:10px 20px;
 }
+#button2{
+  position:absolute;
+  margin-top:56rem;
+  margin-left:20vw;
+  Padding:10px 20px;
+}
 #kar{
-  position:relative;
-  float:left;
-  margin-left:35rem;
+  position:absolute;
+  margin-left:36rem;
+  margin-top:-8rem;
   width: 60vw;
+}
+#tekst1{
+   font-family: "Quicksand", sans-serif;
+   margin-left:7%;
+   margin-top:8%;
+   width:40%;
+}
+#tekst2{
+   font-family: "Quicksand", sans-serif;
+   width:30%;
+   margin-left:35%;
+   margin-top:5%;
+}
+#data1{
+  position:absolute;
+  width:50vw;
+  margin-left:50vw;
+  margin-top:-6rem;
+}
+#data2{
+  position:absolute;
+  width:50%;
+  margin-left:45%;
+  margin-top:12%;
+}
+#data3{
+  position:absolute;
+  width:50%;
+  margin-left:40%;
+  margin-top:32%;
+}
+#data4{
+  position:absolute;
+  width:50%;
+  margin-left:40%;
+  margin-top:52.5%;
+}
+#data5{
+  position:absolute;
+  width:50%;
+  margin-left:52%;
+  margin-top:67%;
 }
 @media (max-width: 600px) {
     body {
       background:url("img/bg2-01.jpg");
 	background-repeat: no-repeat;
-      background-size: cover;
+      background-size:cover;
     }
     button{
       position:relative;
@@ -30,6 +78,52 @@ button{
     #kar{
   position:relative;
   float:left;
-  width: 100vw;
+  width: 130vw;
+  margin-top:-1rem;
+  margin-left: -5rem;
+}
+#tekst1{
+   font-family: "Quicksand", sans-serif;
+   text-align: center;
+   margin-left:8%;
+   margin-top:5%;
+   width:80%;
+}
+#tekst2{
+   font-family: "Quicksand", sans-serif;
+   width:80%;
+   text-align: center;
+   margin-left:8%;
+   margin-top:10%;
+}
+#data1{
+  position:absolute;
+  width:80vw;
+  margin-left:20vw;
+  margin-top:-13vw;
+}
+#data2{
+  position:absolute;
+  width:80%;
+  margin-left:10%;
+  margin-top:12%;
+}
+#data3{
+  position:absolute;
+  width:80%;
+  margin-left:40%;
+  margin-top:32%;
+}
+#data4{
+  position:absolute;
+  width:80%;
+  margin-left:10%;
+  margin-top:75%;
+}
+#data5{
+  position:absolute;
+  width:80%;
+  margin-left:20%;
+  margin-top:100%;
 }
   }
