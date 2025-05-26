@@ -9,6 +9,9 @@ button{
   margin-left:7vw;
   Padding:10px 20px;
 }
+.karakter{
+  width: 10%;
+}
 @media (max-width: 600px) {
     body {
       background:url("img/bg2-01.jpg");
